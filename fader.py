@@ -1,6 +1,6 @@
 from gpiozero import Button, PWMLED
 
-led = PWM(18)
+led = PWMLED(18)
 up_button = Button(23)
 down_button = Button(7)
 
